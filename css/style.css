@@ -1,0 +1,135 @@
+﻿
+html {
+    
+    
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    margin:0;
+}
+
+.navbar {
+    margin-bottom: 0
+}
+
+.main-container {
+    width: 100%;   
+}
+
+.color-palette-header {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    color: rgba(0,0,0,.55);
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .color-palette-header {
+        flex-direction: column;
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+.color-palette-container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 56px);
+}
+
+@media only screen and (max-width: 800px) {
+    .color-palette-container {
+        flex-direction: column;
+    }   
+}
+
+.color-palette-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .color-palette-item {
+        flex-direction: row;
+    }
+}
+
+.color-palette-item-operations {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@media only screen and (max-width: 800px) {
+    .color-palette-item-operations {
+        flex-direction: row;
+    }
+}
+
+.color-palette-header-brand
+{
+    text-decoration: none;
+    color: rgba(0,0,0,.55);
+}
+.color-palette-header-brand:hover
+{
+    text-decoration: none;
+    color: rgba(0,0,0,.55);
+}
+@media only screen and (max-width: 800px) {
+    .color-palette-header-brand {
+        display: none;        
+    }
+}
+
+.color-palette-item-operations div {
+    flex-grow: 1;
+    display: block;
+    font-size: 1.7rem;
+    padding: 0 10px 0 10px;
+}
+
+.color-palette-item-operations div:hover {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.color-code  {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
+
+.color-code:hover{
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.lock-button  {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
+
+.lock-button:hover{
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.nav-item  a{
+    text-align: center;
+}
+
+.navbar-nav .nav-link
+{
+    padding-left: 10px;
+}
