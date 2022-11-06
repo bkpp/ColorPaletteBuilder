@@ -4,7 +4,6 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Color Palette Builder</title>
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
           integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
           crossorigin="anonymous" 
@@ -14,38 +13,37 @@
 </head>
 <body>
     <div class="main-container">
-        <header>
-            <nav class="color-palette-header navbar navbar-light bg-light" >
+        <!-- <header> -->
+            <div class="color-palette-header" >
                 <a class="color-palette-header-brand">Color Palette Builder</a>
-                
-                <ul class="navbar-nav d-flex flex-row me-1">
-                    <li class="nav-item me-3 me-lg-0">
-                        <a href="#" class="nav-link mx-1" id="add-color-bth">
+                <ul class="color-palette-header-operations">
+                    <li>
+                        <a href="#" class="" id="add-color-bth">
                             <i class="fa-solid fa-circle-plus"></i>
                             Add
                         </a>
                     </li>
-                    <li class="nav-item me-3 me-lg-0">
-                        <a href="#" class="nav-link mx-1" id="share-color-bth">
+                    <li>
+                        <a href="#" class="" id="share-color-bth">
                             <i class="fa-solid fa-share-nodes"></i>
                             Share
                         </a>
                     </li>
-                    <li class="nav-item me-3 me-lg-0">
-                        <a href="#" class="nav-link mx-1" id="refresh-color-bth">
+                    <li>
+                        <a href="#" class="" id="refresh-color-bth">
                             <i class="fa-solid fa-rotate"></i>
                             Refresh
                         </a>
                     </li>
-                    <li class="nav-item me-3 me-lg-0">
-                        <a href="#" class="nav-link mx-1" id="reset-color-bth">
+                    <li class="">
+                        <a href="#" class="" id="reset-color-bth">
                             <i class="fa-solid fa-arrow-rotate-right"></i>
                             Reset
                         </a>
                     </li>
                 </ul>
-            </nav>
-        </header>
+            </div>
+        <!-- </header> -->
         <div class="color-palette-container"></div>
     </div>
 
